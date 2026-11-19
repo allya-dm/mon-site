@@ -1,0 +1,1 @@
+document.getElementById('f').onsubmit=function(e){e.preventDefault();document.getElementById('st').textContent='L’envoi n’est pas encore branché : ce formulaire doit être relié à un service de messagerie.'};

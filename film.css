@@ -1,0 +1,12 @@
+
+:root{--bg:#05030F;--v:#8B5CF6;--b:#4F8CFF;--t:#fff}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--t);font-family:Helvetica,Arial,sans-serif;color-scheme:dark}
+#w{position:relative;width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+#s{position:relative;aspect-ratio:16/9;width:min(100vw,177.78vh);background:var(--bg);overflow:hidden}
+canvas,#logo{position:absolute;inset:0;width:100%;height:100%}
+#logo{object-fit:contain;opacity:0;pointer-events:none}
+#tx{position:absolute;left:8%;right:8%;bottom:14%;text-align:center;font-size:clamp(16px,3.2vw,40px);font-weight:300;letter-spacing:.03em;opacity:0;text-shadow:0 0 24px #8B5CF6}
+#cp{position:absolute;right:2%;bottom:2%;font-size:clamp(8px,1vw,12px);opacity:.45}
+#go{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;background:rgba(5,3,15,.88);cursor:pointer;text-align:center}
+#go b{font-size:clamp(20px,3vw,36px);font-weight:300;padding:14px 34px;border:1px solid var(--v);border-radius:40px;box-shadow:0 0 30px #8B5CF688}
+#go small{opacity:.6;max-width:70%}
